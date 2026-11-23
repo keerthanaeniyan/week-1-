@@ -1,0 +1,18 @@
+DEFAULT_PASS_MARK: float = 40.0
+DEFAULT_SUBJECTS: List[str] = [
+    "Mathematics",
+    "Physics",
+    "Chemistry",
+    "English",
+    "Computer Science"
+]
+# Grading Scale: (Minimum Percentage, Grade Letter, Performance Description)
+GRADE_SCALE: List[Tuple[float, str, str]] = [
+    (90.0, "A+", "Outstanding"),
+    (80.0, "A",  "Excellent"),
+    (70.0, "B",  "Very Good"),
+    (60.0, "C",  "Good"),
+    (50.0, "D",  "Satisfactory"),
+    (40.0, "E",  "Pass"),
+    (0.0,  "F",  "Fail / Needs Improvement")
+]
